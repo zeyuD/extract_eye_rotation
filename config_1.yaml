@@ -1,0 +1,42 @@
+PACKAGE_ROOT: ./ptgaze
+demo:
+  display_on_screen: true
+  gaze_visualization_length: 0.05
+  head_pose_axis_length: 0.05
+  image_path: null
+  output_dir: null
+  output_file_extension: mp4
+  show_bbox: true
+  show_head_pose: false
+  show_landmarks: false
+  show_normalized_image: false
+  show_template_model: false
+  use_camera: false
+  video_path: ../data/raw_laptop/A/Zeyu_l/Zeyu_l_A_1_record2.mp4
+  wait_time: 1
+device: cpu
+face_detector:
+  dlib_model_path: ./ptgaze/dlib/shape_predictor_68_face_landmarks.dat
+  mediapipe_max_num_faces: 1
+  mediapipe_static_image_mode: false
+  mode: mediapipe
+gaze_estimator:
+  camera_params: ./ptgaze/data/calib/sample_params.yaml
+  checkpoint: ./ptgaze/models/checkpoint_0015.pth
+  image_size:
+  - 224
+  - 224
+  normalized_camera_distance: 1.0
+  normalized_camera_params: ./ptgaze/data/normalized_camera_params/mpiifacegaze.yaml
+  use_dummy_camera_params: false
+mode: MPIIFaceGaze
+model:
+  backbone:
+    name: resnet_simple
+    pretrained: resnet18
+    resnet_block: basic
+    resnet_layers:
+    - 2
+    - 2
+    - 2
+  name: resnet_simple
