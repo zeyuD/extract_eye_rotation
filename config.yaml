@@ -1,11 +1,11 @@
-PACKAGE_ROOT: ./ptgaze
+PACKAGE_ROOT: /home/zeyu/Projects/Phone_Voting_Privacy_train_models/extract_eye_rotation/ptgaze
 demo:
-  data_directory: ../data/pad_op2/E/downsample_480p
+  data_directory: /mnt/d/OneDrive - Southern Methodist University/Phone_Privacy/data/phonesr_s22/A/downsample_480p
   display_on_screen: false
   gaze_visualization_length: 0.05
   head_pose_axis_length: 0.05
   image_path: null
-  output_dir: ../data/pad_op2/E/downsample_480p/angle
+  output_dir: /mnt/d/OneDrive - Southern Methodist University/Phone_Privacy/data/phonesr_s22/A/downsample_480p/angle
   output_file_extension: avi
   show_bbox: true
   show_head_pose: true
@@ -13,22 +13,22 @@ demo:
   show_normalized_image: false
   show_template_model: false
   use_camera: false
-  video_path: ../data/pad_op2/E/downsample_480p/ZeyuPad_E_9_downsample_480p.mp4
+  video_path: /mnt/d/OneDrive - Southern Methodist University/Phone_Privacy/data/phonesr_s22/A/downsample_480p/Chuan_A_19_downsample_480p.mp4
   wait_time: 1
 device: cuda
 face_detector:
-  dlib_model_path: ./ptgaze/dlib/shape_predictor_68_face_landmarks.dat
+  dlib_model_path: /home/zeyu/Projects/Phone_Voting_Privacy_train_models/extract_eye_rotation/ptgaze/dlib/shape_predictor_68_face_landmarks.dat
   mediapipe_max_num_faces: 1
   mediapipe_static_image_mode: false
   mode: mediapipe
 gaze_estimator:
-  camera_params: ./ptgaze/data/calib/sample_params.yaml
-  checkpoint: ./ptgaze/models/checkpoint_0015.pth
+  camera_params: /home/zeyu/Projects/Phone_Voting_Privacy_train_models/extract_eye_rotation/ptgaze/data/calib/sample_params.yaml
+  checkpoint: /home/zeyu/Projects/Phone_Voting_Privacy_train_models/extract_eye_rotation/ptgaze/models/checkpoint_0015.pth
   image_size:
   - 224
   - 224
   normalized_camera_distance: 1.0
-  normalized_camera_params: ./ptgaze/data/normalized_camera_params/mpiifacegaze.yaml
+  normalized_camera_params: /home/zeyu/Projects/Phone_Voting_Privacy_train_models/extract_eye_rotation/ptgaze/data/normalized_camera_params/mpiifacegaze.yaml
   use_dummy_camera_params: false
 mode: MPIIFaceGaze
 model:
