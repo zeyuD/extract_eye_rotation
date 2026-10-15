@@ -21,9 +21,20 @@ votes = ["A", "B", "C", "D", "E"]
 setups = {
     # "phone_s22": ["Jingwei", "Zeyu"],
     # "pad_op2": ["JingweiPad", "ZeyuPad"],
-    "phonesr_s22": ["Chuan", "Gujing", "Haofan", "Jimmy", "Jingwei", "Junwei", "Minjie", "minglei", "Mingxuan", "Rosie", "Sihang", "Wen", "Yirui", "Zeyu", "Zidan", "Ziyue", "Ziyue1"],
-    "phonedown_s22": ["Chuan", "Gujing", "Haofan", "Jimmy", "Jingwei", "Junwei", "Minjie", "minglei", "Mingxuan", "Rosie", "Sihang", "Wen", "Yirui", "Zeyu", "Zidan", "Ziyue", "Ziyue1"]
-          }
+
+    # "phonesr_s22": ["Chuan", "Gujing", "Haofan", "Jimmy", "Jingwei", "Junwei", "Minjie", "minglei", "Mingxuan", "Rosie", "Sihang", "Wen", "Yirui", "Zeyu", "Zidan", "Ziyue", "Ziyue1"],
+    # "phonedown_s22": ["Chuan", "Gujing", "Haofan", "Jimmy", "Jingwei", "Junwei", "Minjie", "minglei", "Mingxuan", "Rosie", "Sihang", "Wen", "Yirui", "Zeyu", "Zidan", "Ziyue", "Ziyue1"],
+    
+    # "phone180_s22": ["Chuan", "Jimmy", "minglei", "Zeyu", "Ziyue"],
+    # "phone240_s22": ["Chuan", "Jimmy", "minglei", "Zeyu", "Ziyue"],
+    # "phone180sr_s22": ["Chuan", "Jimmy", "minglei", "Zeyu", "Ziyue"],
+    # "phone240sr_s22": ["Chuan", "Jimmy", "minglei", "Zeyu", "Ziyue"],
+
+    "phone_s22": ["Haochen", "Linwei", "Rui", "Yipei", "Yu", "Ning", "Shengyan", "Wenl"],
+    "pad_op2": ["HaochenPad", "LinweiPad", "NingPad", "RuiPad", "ShengyanPad", "WeiPad", "WenPad", "YipeiPad", "YuPad"],
+    "phonerh_s22": ["Jingwei", "Ning", "Shengyan", "Wen"],
+    "phoneds_s22": ["Jingwei", "Ning", "Shengyan", "Wen"],
+    }
 
 # Base configuration dictionary
 config = {
