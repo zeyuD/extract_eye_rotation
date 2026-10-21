@@ -28,12 +28,16 @@ setups = {
     # "phone180_s22": ["Chuan", "Jimmy", "minglei", "Zeyu", "Ziyue"],
     # "phone240_s22": ["Chuan", "Jimmy", "minglei", "Zeyu", "Ziyue"],
     # "phone180sr_s22": ["Chuan", "Jimmy", "minglei", "Zeyu", "Ziyue"],
+    # "phone180sr_s22": ["Haofan", "Jingwei", "Mingxuan", "Wen"],
     # "phone240sr_s22": ["Chuan", "Jimmy", "minglei", "Zeyu", "Ziyue"],
 
-    "phone_s22": ["Haochen", "Linwei", "Rui", "Yipei", "Yu", "Ning", "Shengyan", "Wenl"],
-    "pad_op2": ["HaochenPad", "LinweiPad", "NingPad", "RuiPad", "ShengyanPad", "WeiPad", "WenPad", "YipeiPad", "YuPad"],
-    "phonerh_s22": ["Jingwei", "Ning", "Shengyan", "Wen"],
-    "phoneds_s22": ["Jingwei", "Ning", "Shengyan", "Wen"],
+    # "phone_s22": ["Haochen", "Linwei", "Rui", "Yipei", "Yu", "Ning", "Shengyan", "Wenl"],
+    # "pad_op2": ["HaochenPad", "LinweiPad", "NingPad", "RuiPad", "ShengyanPad", "WeiPad", "WenPad", "YipeiPad", "YuPad"],
+    # "phonerh_s22": ["Jingwei", "Ning", "Shengyan", "Wen"],
+    # "phoneds_s22": ["Jingwei", "Ning", "Shengyan", "Wen"],
+
+    "phonehori_s22": ["Jingwei", "Shengyan", "Wen"],
+    "padhori_op2": ["JingweiPad", "ShengyanPad", "WenPad"],
     }
 
 # Base configuration dictionary
